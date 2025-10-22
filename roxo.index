@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Plataforma de Gestão Escolar</title>
+    <link rel="stylesheet" href="roxo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">EC</div>
+                    <h1>EduConnect</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#features">Funcionalidades</a></li>
+                        <li><a href="#benefits">Benefícios</a></li>
+                        <li><a href="#pricing">Planos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <button class="btn btn-outline">Entrar</button>
+                    <button class="btn btn-primary">Demonstração</button>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Gestão Escolar Simplificada e Integrada</h1>
+                    <p>O EduConnect une professores, alunos, turmas e coordenação em uma única plataforma digital, tornando a gestão escolar mais eficiente e colaborativa.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large">Solicitar Demonstração</button>
+                        <button class="btn btn-outline btn-large">Conhecer Funcionalidades</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="dashboard-preview">
+                        <div class="browser-window">
+                            <div class="browser-header">
+                                <div class="browser-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="browser-content">
+                                <div class="app-sidebar">
+                                    <div class="sidebar-item active">
+                                        <i class="fas fa-home"></i>
+                                        <span>Dashboard</span>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <i class="fas fa-user-graduate"></i>
+                                        <span>Alunos</span>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <i class="fas fa-chalkboard-teacher"></i>
+                                        <span>Professores</span>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <i class="fas fa-users"></i>
+                                        <span>Turmas</span>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <i class="fas fa-chart-bar"></i>
+                                        <span>Relatórios</span>
+                                    </div>
+                                </div>
+                                <div class="app-main">
+                                    <div class="stats-grid">
+                                        <div class="stat-card">
+                                            <h3>1.250</h3>
+                                            <p>Alunos Ativos</p>
+                                        </div>
+                                        <div class="stat-card">
+                                            <h3>85</h3>
+                                            <p>Professores</p>
+                                        </div>
+                                        <div class="stat-card">
+                                            <h3>42</h3>
+                                            <p>Turmas</p>
+                                        </div>
+                                        <div class="stat-card">
+                                            <h3>94%</h3>
+                                            <p>Frequência</p>
+                                        </div>
+                                    </div>
+                                    <div class="recent-activities">
+                                        <h4>Atividades Recentes</h4>
+                                        <ul>
+                                            <li>
+                                                <i class="fas fa-check-circle"></i>
+                                                <span>Notas de Matemática lançadas</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-bell"></i>
+                                                <span>Alerta de frequência enviado</span>
+                                            </li>
+                                            <li>
+                                                <i class="fas fa-user-plus"></i>
+                                                <span>Novo aluno matriculado</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Funcionalidades Principais</h2>
+                <p>Conheça as principais ferramentas que tornam o EduConnect a solução ideal para sua instituição</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Gestão de Alunos</h3>
+                    <p>Cadastro completo de alunos, histórico escolar, boletins e acompanhamento individualizado.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Controle de Professores</h3>
+                    <p>Alocação de docentes, disciplinas, horários e acompanhamento do desempenho.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Organização de Turmas</h3>
+                    <p>Criação e gerenciamento de turmas, com distribuição automática de alunos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Controle de Notas</h3>
+                    <p>Lançamento e cálculo automático de notas, médias e sistemas de avaliação.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Registro de Presença</h3>
+                    <p>Chamada digital com alertas automáticos para alunos com faltas excessivas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Relatórios e Análises</h3>
+                    <p>Geração de relatórios de desempenho, frequência e indicadores educacionais.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Comunicação Integrada</h3>
+                    <p>Canais de comunicação entre professores, coordenação, alunos e responsáveis.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Acesso Multiplataforma</h3>
+                    <p>Interface responsiva que funciona perfeitamente em computadores, tablets e smartphones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que escolher o EduConnect?</h2>
+                <p>Conheça os diferenciais que tornam nossa plataforma a melhor opção para sua instituição</p>
+            </div>
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="benefit-details">
+                            <h3>Eficiência Operacional</h3>
+                            <p>Reduza em até 70% o tempo gasto com processos manuais de gestão escolar.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="benefit-details">
+                            <h3>Segurança de Dados</h3>
+                            <p>Proteção avançada com autenticação segura e controle de permissões por perfil.</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="benefit-details">
+                            <h3>Personalização</h3>
+                            <p>Adaptação às regras específicas de cada instituição (séries, calendários, pesos de notas).</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="benefit-details">
+                            <h3>Suporte Dedicado</h3>
+                            <p>Equipe especializada para auxiliar na implantação e no uso diário da plataforma.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-visual">
+                    <div class="visual-card">
+                        <h4>Antes do EduConnect</h4>
+                        <ul>
+                            <li><i class="fas fa-times"></i> Processos manuais e descentralizados</li>
+                            <li><i class="fas fa-times"></i> Dificuldade de comunicação</li>
+                            <li><i class="fas fa-times"></i> Atraso na atualização de informações</li>
+                            <li><i class="fas fa-times"></i> Dificuldade de acompanhamento</li>
+                        </ul>
+                    </div>
+                    <div class="arrow">
+                        <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                    <div class="visual-card positive">
+                        <h4>Com o EduConnect</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Gestão integrada e automatizada</li>
+                            <li><i class="fas fa-check"></i> Comunicação eficiente</li>
+                            <li><i class="fas fa-check"></i> Informações em tempo real</li>
+                            <li><i class="fas fa-check"></i> Acompanhamento simplificado</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Planos e Preços</h2>
+                <p>Escolha o plano ideal para o tamanho e necessidades da sua instituição</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Básico</h3>
+                        <div class="price">
+                            <span class="currency">R$</span>
+                            <span class="amount">49</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <p>Para pequenas escolas e cursos</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Até 100 alunos</li>
+                        <li><i class="fas fa-check"></i> Gestão de notas e frequência</li>
+                        <li><i class="fas fa-check"></i> Comunicação básica</li>
+                        <li><i class="fas fa-times"></i> Relatórios avançados</li>
+                        <li><i class="fas fa-times"></i> Personalização</li>
+                        <li><i class="fas fa-times"></i> Suporte prioritário</li>
+                    </ul>
+                    <button class="btn btn-outline btn-block">Selecionar Plano</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Mais Popular</div>
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency">R$</span>
+                            <span class="amount">99</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <p>Para instituições de médio porte</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Até 500 alunos</li>
+                        <li><i class="fas fa-check"></i> Gestão completa de notas e frequência</li>
+                        <li><i class="fas fa-check"></i> Comunicação avançada</li>
+                        <li><i class="fas fa-check"></i> Relatórios personalizados</li>
+                        <li><i class="fas fa-check"></i> Personalização básica</li>
+                        <li><i class="fas fa-times"></i> Suporte prioritário</li>
+                    </ul>
+                    <button class="btn btn-primary btn-block">Selecionar Plano</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">R$</span>
+                            <span class="amount">199</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <p>Para grandes instituições e redes</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Alunos ilimitados</li>
+                        <li><i class="fas fa-check"></i> Todas as funcionalidades</li>
+                        <li><i class="fas fa-check"></i> Comunicação completa</li>
+                        <li><i class="fas fa-check"></i> Relatórios avançados</li>
+                        <li><i class="fas fa-check"></i> Personalização total</li>
+                        <li><i class="fas fa-check"></i> Suporte prioritário 24/7</li>
+                    </ul>
+                    <button class="btn btn-outline btn-block">Selecionar Plano</button>
+                </div>
+            </div>
+            <div class="pricing-footer">
+                <p>Todos os planos incluem atualizações gratuitas e treinamento inicial. <a href="#contact">Entre em contato</a> para planos personalizados.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Solicite uma demonstração personalizada ou tire suas dúvidas sobre o EduConnect</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Fale Conosco</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telefone</h4>
+                            <p>(11) 3456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>E-mail</h4>
+                            <p>contato@educonnect.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta, 8h às 18h</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="demoForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="school">Instituição</label>
+                            <input type="text" id="school" name="school" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="students">Número de Alunos</label>
+                            <select id="students" name="students" required>
+                                <option value="">Selecione</option>
+                                <option value="1-100">1 - 100</option>
+                                <option value="101-500">101 - 500</option>
+                                <option value="501-1000">501 - 1000</option>
+                                <option value="1000+">Mais de 1000</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Conte-nos sobre suas necessidades..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Solicitar Demonstração</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-icon">EC</div>
+                        <h2>EduConnect</h2>
+                    </div>
+                    <p>Plataforma de gestão escolar integrada que simplifica processos e melhora a comunicação entre professores, alunos e coordenação.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#features">Funcionalidades</a></li>
+                        <li><a href="#benefits">Benefícios</a></li>
+                        <li><a href="#pricing">Planos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Recursos</h3>
+                    <ul>
+                        <li><a href="#">Documentação</a></li>
+                        <li><a href="#">Tutoriais</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Inscreva-se para receber novidades e dicas sobre gestão escolar.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Seu e-mail">
+                        <button class="btn btn-primary">Inscrever</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EduConnect. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
